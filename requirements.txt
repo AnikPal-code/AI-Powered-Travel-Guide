@@ -1,2 +1,8 @@
 streamlit
+gradio
 langchain
+langchain-core
+langchain-groq
+langchain-community
+langgraph
+pyngrok

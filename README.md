@@ -14,7 +14,6 @@ An AI-driven application designed to assist users in planning their travels by p
 - [Sample Data](#sample-data)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 

@@ -1,71 +1,58 @@
-AI-Powered Travel Guide
+# AI-Powered Travel Guide 
+link to my website: https://ai-powered-travel-guide-by-anikpal.streamlit.app/
 An AI-driven application designed to assist users in planning their travels by providing personalized recommendations and insights.
 
-Table of Contents
-Introduction
+## Table of Contents
 
-Features
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Modules](#modules)
+- [Sample Data](#sample-data)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-Installation
+## Introduction
 
-Usage
-
-Project Structure
-
-Modules
-
-Sample Data
-
-Configuration
-
-Contributing
-
-License
-
-Introduction
 The AI-Powered Travel Guide leverages artificial intelligence to offer users tailored travel recommendations, helping them explore destinations more effectively.
 
-Features
-Personalized travel recommendations based on user preferences.
+## Features
 
-Integration with external APIs for real-time data.
+- Personalized travel recommendations based on user preferences.
+- Integration with external APIs for real-time data.
+- User-friendly interface for seamless interaction.
 
-User-friendly interface for seamless interaction.
+## Installation
 
-Installation
 To set up the project locally:
 
-Clone the repository:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnikPal-code/AI-Powered-Travel-Guide.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd AI-Powered-Travel-Guide
+   ```
+3. **Install the required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy
-Edit
-git clone https://github.com/AnikPal-code/AI-Powered-Travel-Guide.git
-Navigate to the project directory:
+## Usage
 
-bash
-Copy
-Edit
-cd AI-Powered-Travel-Guide
-Install the required dependencies:
+1. **Run the application:**
+   ```bash
+   python app.py
+   ```
+2. **Interact with the application** to receive personalized travel recommendations.
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Run the application:
+## Project Structure
 
-bash
-Copy
-Edit
-python app.py
-Interact with the application to receive personalized travel recommendations.
-
-Project Structure
-bash
-Copy
-Edit
+```
 AI-Powered-Travel-Guide/
 ├── .config/                # Configuration files
 ├── __pycache__/            # Compiled Python files
@@ -73,37 +60,38 @@ AI-Powered-Travel-Guide/
 ├── app.py                  # Main application script
 ├── requirements.txt        # List of dependencies
 └── your_travel_module.py   # Core module for travel recommendations
-Modules
-app.py: The main script that initializes and runs the application.​
+```
 
-your_travel_module.py: Contains the core logic for generating travel recommendations.​
+## Modules
 
-Sample Data
-The sample_data/ directory includes datasets that can be used to test the application's functionality.​
+- **app.py:** The main script that initializes and runs the application.
+- **your_travel_module.py:** Contains the core logic for generating travel recommendations.
 
-Configuration
-The .config/ directory holds configuration files that manage application settings and parameters.​
+## Sample Data
 
-Contributing
-We welcome contributions! To contribute:​
+The `sample_data/` directory includes datasets that can be used to test the application's functionality.
 
-Fork the repository.
+## Configuration
 
-Create a new branch:
+The `.config/` directory holds configuration files that manage application settings and parameters.
 
-bash
-Copy
-Edit
-git checkout -b feature-name
-Make your changes and commit them:
+## Contributing
 
-bash
-Copy
-Edit
-git commit -m 'Add new feature'
-Push to the branch:
+We welcome contributions! To contribute:
 
-bash
-Copy
-Edit
-git push origin feature-name
+1. **Fork the repository.**
+2. **Create a new branch:**
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Make your changes and commit them:**
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. **Push to the branch:**
+   ```bash
+   git push origin feature-name
+   ```
+
+
+
